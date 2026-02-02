@@ -85,3 +85,5 @@ yarn develop
 
 Here is a high-level view of the important files and folders:
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/42d07ed6-a218-42fc-baa0-7f8ec0075ac8" />
+<img width="1919" height="917" alt="image" src="https://github.com/user-attachments/assets/9ea1311c-4e5d-4d86-8068-bf577d9392e7" />
