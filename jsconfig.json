@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
     "rootDir": ".",
-    "module": "commonjs",
-    "target": "es6"
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "target": "ES2020",
+    "skipLibCheck": true,
+    "strict": false
   },
   "exclude": [
     "**/node_modules/*",
