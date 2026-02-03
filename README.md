@@ -1,167 +1,167 @@
-🚀 Strapi App
+🚀 Strapi CMS Project
 
-A Strapi-based CMS application designed for managing content with a modular, scalable, and developer-friendly setup.
-This project supports custom content types, API development, testing, and easy frontend integration.
+This repository contains a Strapi-powered content management system built with scalability and simplicity in mind.
+It provides a solid backend foundation for handling content, APIs, and integrations with modern frontend applications.
 
-It’s suitable for building:
+This setup works well for:
 
-Websites
+Business and personal websites
 
-Admin dashboards
+Admin or management dashboards
 
-Content-driven applications
+Content-focused platforms
 
-Internal tools
+Internal or tooling applications
 
-📑 Table of Contents
+📚 Contents
 
-Project Overview
+Overview
 
-Features
+Key Capabilities
 
-Project Structure
+Folder Structure
 
-Technologies Used
+Tech Stack
 
-Getting Started
+Setup Guide
 
-Available Scripts
+Useful Commands
 
-Docker Setup
+Docker Usage
 
 Testing
 
-Contributing
+Contribution Guide
 
 License
 
-📌 Project Overview
+🧩 Overview
 
-This is a Strapi CMS application initialized with a clean structure and sample configurations.
-It allows developers to quickly spin up a backend with REST or GraphQL APIs, manage content via an admin panel, and connect it seamlessly with any frontend framework.
+The project is a preconfigured Strapi application designed to help developers get started quickly.
+It enables you to create and manage content through a web-based admin panel while exposing data through REST or GraphQL APIs.
 
-The project follows Nx workspace conventions, making it suitable for scalable development, testing, and CI/CD workflows.
+Using an Nx workspace layout, the project stays organized and ready for growth, making it suitable for collaborative development and automated workflows.
 
-✨ Features
+⭐ Key Capabilities
 
-Modular content management using Strapi
+Structured and customizable content management
 
-REST & GraphQL API support
+API support using REST and GraphQL
 
-Admin dashboard for content and user management
+Built-in admin interface for managing data and users
 
-Nx-based workspace configuration
+Workspace management with Nx
 
-Jest setup for unit & integration testing
+Test-ready setup using Jest
 
-Docker support for development and testing
+Docker-based environment for consistency
 
-Clean, GitHub-friendly project structure
+Clean and maintainable repository structure
 
-📂 Project Structure
+📁 Folder Structure
 strapi-app/
-├─ .nxignore                 # Files and directories ignored by Nx
-├─ .prettierrc.js            # Prettier configuration
-├─ docker-compose.dev.yml    # Docker setup for development
-├─ docker-compose.test.yml   # Docker setup for testing
-├─ jest.config.js            # Jest configuration
-├─ package.json              # Project dependencies and scripts
-├─ strapi-app/               # Main Strapi application
-├─ yarn.lock                 # Yarn dependency lock file
-└─ README.md                 # Project documentation
+├─ .nxignore                 # Nx ignore rules
+├─ .prettierrc.js            # Code formatting rules
+├─ docker-compose.dev.yml    # Docker configuration for development
+├─ docker-compose.test.yml   # Docker configuration for testing
+├─ jest.config.js            # Test configuration
+├─ package.json              # Scripts and dependencies
+├─ strapi-app/               # Core Strapi project
+├─ yarn.lock                 # Dependency lock file
+└─ README.md                 # Documentation
 
-Notable Files
+Important Files
 
-.nxignore – Excludes unnecessary files from Nx operations
+.nxignore – Prevents Nx from tracking unnecessary files
 
-docker-compose.dev.yml – Runs Strapi locally using Docker
+docker-compose.dev.yml – Spins up Strapi using Docker
 
-jest.config.js – Configuration for testing
+jest.config.js – Handles test setup
 
-package.json – Scripts for running, building, and testing
+package.json – Defines commands and dependencies
 
-🛠️ Technologies Used
+🧰 Tech Stack
 
-Node.js – JavaScript runtime
+Node.js – JavaScript execution environment
 
-Strapi – Headless CMS
+Strapi – Headless CMS platform
 
-Nx – Monorepo & workspace management
+Nx – Workspace and monorepo tooling
 
-Docker – Containerization
+Docker – Container-based setup
 
 Jest – Testing framework
 
-Yarn – Package manager
+Yarn – Dependency management
 
-Git – Version control
+Git – Source control
 
-🚀 Getting Started
+⚙️ Setup Guide
 
-Follow these steps to run the project locally.
+Follow these steps to run the application on your local machine.
 
-1️⃣ Clone the Repository
+Step 1: Clone the repository
 git clone https://github.com/YOUR_USERNAME/strapi-task.git
 cd strapi-app
 
-2️⃣ Install Dependencies
+Step 2: Install required packages
 yarn install
 
-3️⃣ Start Development Server
+Step 3: Launch the development server
 yarn develop
 
 
-Once running, open the admin panel:
+Access the admin panel at:
 
 http://localhost:1337/admin
 
 
-Create your admin account and start managing content.
+Create an admin account and start working with content.
 
-📜 Available Scripts
-Command	Description
-yarn develop	Start Strapi in development mode
-yarn build	Build the admin panel
-yarn start	Start Strapi in production mode
-yarn test	Run tests using Jest
-🐳 Docker Setup
+🧾 Useful Commands
+Command	Purpose
+yarn develop	Run Strapi locally in dev mode
+yarn build	Compile the admin dashboard
+yarn start	Start the app in production
+yarn test	Execute test suites
+🐋 Docker Usage
 
-To run the application using Docker:
+To start the project using Docker for development:
 
 docker-compose -f docker-compose.dev.yml up
 
 
-For testing:
+To run tests in Docker:
 
 docker-compose -f docker-compose.test.yml up
 
 
-This setup helps maintain consistent environments across development and testing.
+This ensures the same environment across machines.
 
 🧪 Testing
 
-The project uses Jest for testing.
+Testing is handled using Jest.
 
-To run tests:
+Run all tests with:
 
 yarn test
 
 
-Both unit and integration tests can be added under the configured test folders.
+You can expand the test coverage by adding your own unit or integration tests.
 
-🤝 Contributing
+🤝 Contribution Guide
 
-Contributions are welcome!
+If you’d like to contribute:
 
-Fork the repository
+Fork this repository
 
-Create a new branch
+Create a feature branch
 
-Make your changes
+Implement your changes
 
-Submit a pull request
+Open a pull request
 
 📄 License
 
-This project is open-source and available for learning and development purposes.
-You are free to use and modify it as needed.
+This project is open for educational and development use.
+You are free to adapt and extend it according to your needs.
